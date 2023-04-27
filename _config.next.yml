@@ -1,0 +1,68 @@
+cache:
+  enable: true
+minify: true
+scheme: Gemini
+darkmode: true
+favicon:
+  small: /images/logo.jpg
+  medium: /images/logo.jpg
+  apple_touch_icon: /images/logo.jpg
+  safari_pinned_tab: /images/logo.jpg
+  android_manifest: /images/logo.jpg
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+
+avatar:
+  url: /images/logo.jpg
+
+social:
+  GitHub: https://github.com/sam40305sam || fa-brands fa-github
+  E-Mail: mailto:sam40305sam@gmail.com || fa-solid fa-envelope
+
+social_icons:
+  icons_only: true
+
+footer:
+  since: 2019
+  icon:
+    animated: true
+
+post_meta:
+  updated_at:
+    enable: false
+
+# Local search
+# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+pace:
+  enable: true
+  theme: minimal
+
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: fa fa-user
+  total_views: true
+  total_views_icon: fa fa-eye
+  post_views: true
+  post_views_icon: far fa-eye
+
+back2top:
+  # Scroll percent label in b2t button.
+  scrollpercent: true

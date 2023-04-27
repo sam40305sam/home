@@ -5,7 +5,7 @@
 # Site
 title: JSSU's Blog
 subtitle: True=Mio+Azunyan<br/>珍愛生命 遠離編程
-description: ''
+description: ""
 keywords:
 author: sam40305
 language: zh-TW
@@ -13,7 +13,7 @@ timezone: Asia/Taipei
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://sam40305sam.github.io/home
+url: https://sam40305sam.github.io/home/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -37,7 +37,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -47,21 +47,21 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   enable: false
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -81,7 +81,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -105,23 +105,15 @@ deploy:
   type: git
   repo: https://github.com/sam40305sam/home.git
   branch: gh-pages
-  
-# hexo-admin authentification
-admin:
-  username: sam40305
-  password_hash: $2a$10$DRiBJkY5REMFa2I7KJGSauFWMl59rwnRk6oh4R7GfIeBFkZhBqvey
-  secret: loliiscute
 
 search:
   path: search.xml
   field: post
+  content: true
   format: html
-  limit: 10000
 
 symbols_count_time:
- #文章内是否显示
   symbols: true
   time: true
- # 网页底部是否显示
   total_symbols: true
   total_time: true
