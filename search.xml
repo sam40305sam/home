@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>My First Page</title>
+    <url>/home/2019/04/10/My-First-Page/</url>
+    <content><![CDATA[<p>I’m so tired…<br>I wanna go to bed.<br>Bye~~</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">echo &quot;Hello World&quot;;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>幹話</category>
+      </categories>
+      <tags>
+        <tag>幹話123</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hexo 起步</title>
+    <url>/home/2019/04/11/hexo-%E8%B5%B7%E6%AD%A5/</url>
+    <content><![CDATA[<h1 id="hexo-起步"><a href="#hexo-起步" class="headerlink" title="hexo 起步"></a>hexo 起步</h1><p>設定東西好痛苦<br>剛剛不知為何hexo變得怪怪的<br>只好下了這個指令</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git reset</span><br></pre></td></tr></table></figure>
+<p>QAQ</p>
+]]></content>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+</search>
